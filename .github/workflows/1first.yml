@@ -5,6 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
     - name: "Dire bonjour"
-      run: echo 'Bonjour';
+      run: |
+        echo 'Bonjour';
+        echo 'Salut';
+        echo 'Tchuuss';
     - name: "Dire au revoir"
       run: echo 'Au revoir';
